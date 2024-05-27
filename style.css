@@ -131,7 +131,6 @@
     opacity: 1;
 }
 
-
 .Bigbox {
     width: 672px;
     height: auto;
@@ -363,8 +362,13 @@ summary {
     color: black;
 }
 
-#color {
+.color {
     background-color: #e6eaed;
+    /* text-decoration: none; */
+    
+}
+.color a{
+    text-decoration: none; 
 }
 
 #block4 {
@@ -378,6 +382,7 @@ summary {
 #block4 :hover{
     color:#023e77
 }
+
 
 .line {
     width: 1403px;
@@ -415,9 +420,12 @@ summary {
     color: #0a0a0a;
     margin-left: 500px;
     padding-left: 100px;
+    /* text-decoration: none; */
   
 }
-
+.footernav-right a{
+    text-decoration: none;
+}
 #main-box{
     margin-left: 120px;
     margin-top: 25px;
