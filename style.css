@@ -167,7 +167,7 @@
 }
 
 details {
-    height: 65px;
+    height: auto;
     /* padding: 5px; */
     border-radius: 5px;
     color: black;
