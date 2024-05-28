@@ -141,6 +141,7 @@
     position: relative;
     top: 40px;
     left: 50px;
+    column-gap: 1cm;
 
 }
 
@@ -168,7 +169,7 @@
 
 details {
     height: auto;
-    /* padding: 5px; */
+    padding: 5px;
     border-radius: 5px;
     color: black;
     cursor: pointer;
