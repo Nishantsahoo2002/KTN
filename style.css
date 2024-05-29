@@ -262,10 +262,38 @@ summary {
 
 }
 
+
+
 .blogbox {
     width: 349px;
     height: 299px;
     /* border: 2px solid black; */
+    display: flex;
+    align-items: end;
+}
+
+#main-first{
+    width: 349px;
+    height: 124px;
+    background-color: #000000b3;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 30px 30px 15px 30px;  
+    line-height: 1.2;
+}
+
+#broken{
+    width: 349px;
+    height: 150px;
+    background-color: #000000b3;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 40px 20px 10px 10px; 
+    line-height: 1.2;
 }
 
 .blogbox :hover{
@@ -297,19 +325,16 @@ summary {
     /* border: 2px solid black; */
     background-color: #e6eaed;
     gap: 1cm;
-
-
 }
 
 #block1 {
     width: 270px;
-    height: 325p;
+    height: 325px;
     text-align: center;
     font-size: 0.8rem;
     line-height: 0.8cm;
     margin-right: 40px;
     font-weight: 600;
-
 }
 
 #block2 {
